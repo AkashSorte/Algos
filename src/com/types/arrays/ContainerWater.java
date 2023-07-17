@@ -1,5 +1,9 @@
 package com.types.arrays;
 
+
+/**
+ *  https://leetcode.com/problems/container-with-most-water/
+ */
 public class ContainerWater {
     public int maxArea(int[] height) {
 //        int maxArea = 0;
@@ -30,6 +34,6 @@ public class ContainerWater {
     }
 
     public static void main(String[] args) {
-        System.out.println(new ContainerWater().maxArea(new int[]{2,3,4,5,18,17,6}));
+        System.out.println(new ContainerWater().maxArea(new int[]{1,8,6,2,5,4,8,3,7}));
     }
 }
